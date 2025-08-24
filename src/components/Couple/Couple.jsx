@@ -1,5 +1,6 @@
 import React from 'react'
-import couplePic from '../../assets/couples.jpg'
+import couplePic from '../../assets/Couples.png'
+
 import './couple.css'
 
 const Couple = () => {
