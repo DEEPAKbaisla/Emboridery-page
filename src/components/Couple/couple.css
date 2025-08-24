@@ -68,7 +68,7 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
-    margin-left: 60px;
+    /* margin-left: 60px; */
 
 }
 
@@ -79,7 +79,7 @@
         flex-direction: column;
     }
 
-    p {
+   .description p {
         margin-top: 55px;
     }
 
