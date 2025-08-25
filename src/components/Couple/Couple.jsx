@@ -12,7 +12,11 @@ const Couple = () => {
                 <div className="description">
 
                     <p>Celebrate love and togetherness with this unique handcrafted anniversary frame. Perfectly designed for couples, this decorative piece features</p>
-                    <h3>This is not just a gift but a memory that will last forever ❤️</h3>
+
+
+                    <h3 >This is not just a gift but a memory that will last forever ❤️</h3>
+
+
                     <ul id='details'>
                         <li>🌸 Elegant Embroidery Work</li>
                         <li>👩‍❤️‍👨 Couple Figurine Design</li>
@@ -23,7 +27,7 @@ const Couple = () => {
                 <div className="picture">
                     <img src={couplePic} alt="" srcset="" />
                 </div>
-
+           <h3 id='h3'>This is not just a gift but a memory that will last forever ❤️</h3>
             </div>
         </div>
     )
