@@ -15,8 +15,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   padding-bottom: 30px;
   /* padding: 20px; */
+=======
+  margin-bottom: 30px;
+  padding: 20px;
+>>>>>>> ae6bf044c5390aabd04ba5193a50c66ab9f46b6d
   background-color: #ddd9d9;
   color: #320e3a;
 }

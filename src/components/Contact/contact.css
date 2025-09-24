@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-whatsapp {
   display: flex;
   align-items: center;
@@ -136,3 +137,170 @@ button:hover {
     width: 100%;
   }
 }
+=======
+
+.contact-whatsapp {
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contact-whatsapp-text {
+    font-size: 40px;
+    font-weight: 600;
+}
+.contact-whatsapp-text:hover{
+    cursor: pointer;
+
+}
+.desktop-only {
+    display: flex;
+}
+
+
+
+
+
+.contact {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    width: 50%;
+    margin: 50px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+
+}
+
+.form input {
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    background-color: #0b0b0b11;
+    outline: none;
+    font-size: larger;
+    font-weight: 500;
+
+}
+
+.rightSide textarea {
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    height: 100px;
+    resize: none;
+    background-color: #0b0b0b11;
+    outline: none;
+}
+
+button {
+    padding: 10px 0px;
+    margin: 15px;
+    background-color: rgb(45, 45, 161);
+    width: 80%;
+    /* margin-left: 120px; */
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.form label {
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+#footer {
+
+    background: linear-gradient(#d7d2cc);
+    font-size: 24px;
+    font-weight: 700;
+    color: #301934;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .contact-title h1 {
+        font-size: 30px;
+        margin: 30px;
+        flex: 1;
+    }
+
+    .contact-title p {
+        font-size: 20px;
+        flex: 1;
+        margin-left: 20px;
+    }
+     .form{
+            margin: -11px;
+     }
+    .form input {
+        width: 100%;       
+         /* margin-left: 20%; */
+    }
+
+    .form textarea {
+        width: 100%;     
+           /* margin-left: 20%; */
+    }
+
+
+    .contact-whatsapp-text {
+        font-size: 28px;
+    }
+    .submit{
+        width: 100%;
+    }
+   #footer{
+    font-size: medium;
+   }  
+} 
+>>>>>>> ae6bf044c5390aabd04ba5193a50c66ab9f46b6d

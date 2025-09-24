@@ -14,7 +14,11 @@
 
 .promo-container {
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
+=======
+    justify-content: space-between;
+>>>>>>> ae6bf044c5390aabd04ba5193a50c66ab9f46b6d
     align-items: center;
     height: 100%;
     position: relative;
@@ -62,6 +66,10 @@
     z-index: 1;
     transform: rotate(24deg);
     position: relative;
+<<<<<<< HEAD
+=======
+    left: 100px;
+>>>>>>> ae6bf044c5390aabd04ba5193a50c66ab9f46b6d
     margin-left: 30px;
 }
 
