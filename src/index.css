@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+body {
+  background: #3a3a39;
+  color: rgb(240, 229, 214);
+  height: 100vh;
+  
+}
+
