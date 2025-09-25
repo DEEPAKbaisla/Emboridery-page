@@ -1,109 +1,101 @@
 .home-container {
-     background: linear-gradient(#304352, #d7d2cc);
+  background: linear-gradient(#304352, #d7d2cc);
+  margin-top: 0%;
 }
 
 .promo-wrapper {
-
-    background-position: center;
-    padding: 60px;
-    height: 600px;
-    position: relative;
-    overflow: hidden;
-
+  background-position: center;
+  /* padding: 60px; */
+  height: 600px;
+  position: relative;
+  overflow: hidden;
 }
 
 .promo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    position: relative;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
 }
 
-
 .text-content {
-
-    padding: 40px;
-    z-index: 2;
-    width: 90%;
-    height: 120%;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-top: 40px;
+  padding: 40px;
+  z-index: 2;
+  width: 90%;
+  height: 120%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 40px;
 }
 
 #first {
-    background-color: #47383a;
-    font-size: 24px;
-    width: max-content;
-    font-weight: 500;
+  background-color: #47383a;
+  font-size: 24px;
+  width: max-content;
+  font-weight: 500;
 }
 
 #second {
-    color: rgb(58, 44, 47);
-    font-size: 73px;
-    font-weight: 900;
+  color: rgb(58, 44, 47);
+  font-size: 103px;
+  font-weight: 900;
 }
 
 .text-mobile {
-    display: none;
+  display: none;
 }
 
 .image-container {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    transform: rotate(24deg);
-    position: relative;
-    margin-left: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transform: rotate(24deg);
+  position: relative;
+  margin-left: 30px;
 }
 
 .image-container img {
-    width: 700px;
-    height: auto;
-    object-fit: cover;
+  width: 700px;
+  height: auto;
+  object-fit: cover;
 }
 
-@media (max-width:768px) {
-    .text-content {
-        display: none;
-    }
+@media (max-width: 768px) {
+  .text-content {
+    display: none;
+  }
 
-    .image-container {
-        display: none;
-    }
+  .image-container {
+    display: none;
+  }
 
-    .text-mobile {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
-    }
+  .text-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    #mobile-pic {
-        width: 100vh;
-        /* margin-left: 50px; */
-
-    }
-
-    #second-mobile {
-        color: #463639;
-        font-size: 50px;
-        font-weight: 900;
-        width: 100%;
-        /* margin-left: 50px;
+  #mobile-pic {
+    width: 100vh;
+    margin-left: 20px;
+  }
+  #first {
+    margin-left: 30px;
+  }
+  #second-mobile {
+    color: #463639;
+    font-size: 50px;
+    font-weight: 900;
+    width: 100%;
+    margin-left: 30px;
+    /* margin-left: 50px;
         padding-bottom: 50px; */
-    }
-
-
-    
-
-
+  }
 }

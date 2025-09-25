@@ -10,7 +10,7 @@ const work = () => {
         <h1 className="text-4xl ">Threads that tell story </h1>
         <p className="text-3xl">Stitching your style precision passion </p>
       </div>
-      <div className="card-cont flex gap-10 ">
+      <div className="carousel rounded-box w-full gap-3 md:ml-[40%]">
         {works.map((work, index) => {
           return (
             <div className="card hover:scale-105 duration-300  ">
