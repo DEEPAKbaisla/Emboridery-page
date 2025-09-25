@@ -1,15 +1,5 @@
 @import "tailwindcss";
-<<<<<<< HEAD
 @plugin "daisyui";
-
-
-=======
-
-* {
-  padding: 0;
-  margin: 0;
-}
->>>>>>> ae6bf044c5390aabd04ba5193a50c66ab9f46b6d
 
 body {
   background: #3a3a39;
