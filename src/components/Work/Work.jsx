@@ -13,8 +13,8 @@ const work = () => {
       <div className="card-cont flex gap-10 ">
         {works.map((work, index) => {
           return (
-            <div className="card hover:scale-105 duration-300">
-              <div key={index} className="card bg-base-100 w-96 shadow-sm">
+            <div className="card hover:scale-105 duration-300  ">
+              <div key={index} className="card w-96 shadow-sm bg-amber-50">
                 <figure>
                   <img src={work.w_img} alt="Shoes" />
                 </figure>
